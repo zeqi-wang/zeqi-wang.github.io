@@ -1,6 +1,13 @@
+title: Hexo-Theme-Yun
+subtitle: ''
+description: ''
+keywords:
+author: 王泽琪
+language: zh-CN
+timezone: ''
+
 banner:
   enable: false
-  title: 王泽琪
 
 bg_image:
   enable: false
@@ -17,4 +24,9 @@ avatar:
   status:
     enable: false
 
+pages:
+
 social:
+
+reward:
+  enable: false
