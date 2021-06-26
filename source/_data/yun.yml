@@ -1,0 +1,20 @@
+banner:
+  enable: false
+  title: 王泽琪
+
+bg_image:
+  enable: false
+
+say:
+  enable: false
+
+avatar:
+  enable: true
+  url: /images/avatar.jpg
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: false
+
+social:
