@@ -6,6 +6,10 @@ author: 王泽琪
 language: zh-CN
 timezone: ''
 
+colors:
+  primary: "#ffffff"
+  selection_bg: "#283654"
+
 banner:
   enable: false
 
