@@ -169,12 +169,14 @@ details[open] summary {
   margin: -1rem -1rem 1rem -1rem;
 }
 :root {
+  --hty-light-color-rgb: 255, 255, 255;
+  --hty-dark-color-rgb: 0, 0, 0;
   --hty-mode: 'light';
   --hty-bg-color: #f5f5f5;
   --hty-text-color: #333;
   --hty-secondary-text-color: #555;
   --post-block-bg-color: #fff;
-  --smc-link-color: #0078e7;
+  --smc-link-color: #fff;
 }
 html {
   scroll-behavior: smooth;
@@ -809,6 +811,7 @@ body {
   cursor: default;
 }
 .post-block {
+  color: var(--hty-text-color);
   margin: 0 1rem;
   padding: 1rem;
   background-color: var(--post-block-bg-color);
@@ -1923,13 +1926,15 @@ body {
     --color-mode: 'dark';
   }
   :root:not([data-user-color-scheme]) {
+    --hty-light-color-rgb: 0, 0, 0;
+    --hty-dark-color-rgb: 255, 255, 255;
     --hty-bg-color: #303030;
     --hty-text-color: #f2f2f2;
     --hty-secondary-text-color: #eee;
     --banner-line-color: #fff;
     --banner-char-color: #fff;
     --post-block-bg-color: #1b1f2e;
-    --smc-link-color: #3ca1ff;
+    --smc-link-color: #fff;
   }
   :root:not([data-user-color-scheme]) ::-webkit-input-placeholder {
     color: #fff;
@@ -1951,17 +1956,10 @@ body {
     background-color: rgba(27,31,46,0.95);
     background-image: none;
   }
-  :root:not([data-user-color-scheme]) .post-title-link {
-    color: #fff;
-  }
   :root:not([data-user-color-scheme]) .post-card {
     color: #fff;
     background-color: rgba(27,31,46,0.9);
     box-shadow: 0 1px 8px rgba(27,31,46,0.1);
-  }
-  :root:not([data-user-color-scheme]) .post-block {
-    color: var(--hty-text-color);
-    background-color: rgba(27,31,46,0.95);
   }
   :root:not([data-user-color-scheme]) .page-number-basic {
     background-color: rgba(0,0,0,0.5);
@@ -1991,21 +1989,20 @@ body {
     background: rgba(255,255,255,0.9);
     cursor: default;
   }
-  :root:not([data-user-color-scheme]) #footer {
-    color: #eee;
-  }
   :root:not([data-user-color-scheme]) .aplayer {
     color: #000;
   }
 }
 [data-user-color-scheme='dark'] {
+  --hty-light-color-rgb: 0, 0, 0;
+  --hty-dark-color-rgb: 255, 255, 255;
   --hty-bg-color: #303030;
   --hty-text-color: #f2f2f2;
   --hty-secondary-text-color: #eee;
   --banner-line-color: #fff;
   --banner-char-color: #fff;
   --post-block-bg-color: #1b1f2e;
-  --smc-link-color: #3ca1ff;
+  --smc-link-color: #fff;
 }
 [data-user-color-scheme='dark'] ::-webkit-input-placeholder {
   color: #fff;
@@ -2027,17 +2024,10 @@ body {
   background-color: rgba(27,31,46,0.95);
   background-image: none;
 }
-[data-user-color-scheme='dark'] .post-title-link {
-  color: #fff;
-}
 [data-user-color-scheme='dark'] .post-card {
   color: #fff;
   background-color: rgba(27,31,46,0.9);
   box-shadow: 0 1px 8px rgba(27,31,46,0.1);
-}
-[data-user-color-scheme='dark'] .post-block {
-  color: var(--hty-text-color);
-  background-color: rgba(27,31,46,0.95);
 }
 [data-user-color-scheme='dark'] .page-number-basic {
   background-color: rgba(0,0,0,0.5);
@@ -2066,9 +2056,6 @@ body {
 [data-user-color-scheme='dark'] .pagination .space.current {
   background: rgba(255,255,255,0.9);
   cursor: default;
-}
-[data-user-color-scheme='dark'] #footer {
-  color: #eee;
 }
 [data-user-color-scheme='dark'] .aplayer {
   color: #000;

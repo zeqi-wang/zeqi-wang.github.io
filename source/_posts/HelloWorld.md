@@ -40,3 +40,28 @@ git commit -m "XX"
 git push
 ```
 
+> Primary
+
+<div class="success">
+
+> Success
+
+</div>
+
+<div class="warning">
+
+> Warning
+
+</div>
+
+<div class="danger">
+
+> Danger
+
+</div>
+
+<div class="info">
+
+> Info
+
+</div>
