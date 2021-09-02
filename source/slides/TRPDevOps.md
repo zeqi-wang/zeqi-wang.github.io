@@ -46,6 +46,8 @@ i[class^="ri-"] {
 
 <i class="ri-play-circle-line"></i>
 
+Note: SpringBoot SpringCloud 微服务框架；分布式微服务架构
+
 ~~
 
 <div class="project-img">
