@@ -46,15 +46,13 @@ i[class^="ri-"] {
 
 <i class="ri-play-circle-line"></i>
 
-Note: SpringBoot SpringCloud 微服务框架；分布式微服务架构
-
 ~~
 
 <div class="project-img">
   <img src="/images/trp/平台整体方案.png" alt="project"/>
 </div>
 
-Note: 服务目录/CMDB；项目管理；流水线；测试集成；监控告警
+Note: SpringBoot SpringCloud 微服务框架；结合容器云技术的分布式微服务架构。服务目录/CMDB；项目管理；流水线；测试集成；监控告警
 
 ===
 
@@ -144,13 +142,15 @@ Note: 工程化的全流程、可定义、可视化、自动化流水线
 
 ### 监控报警
 
-<iframe class="document" src="http://10.225.1.69/Ark/#/zh-cn/%E6%9C%8D%E5%8A%A1%E7%9B%91%E6%8E%A7/%E5%91%8A%E8%AD%A6%E4%B8%AD%E5%BF%83/%E5%91%8A%E8%AD%A6%E4%B8%AD%E5%BF%83"></iframe>
+<iframe class="document" src="http://10.225.1.69/Ark/#/zh-cn/%E6%9C%8D%E5%8A%A1%E7%9B%91%E6%8E%A7/%E6%9C%8D%E5%8A%A1%E7%9B%91%E6%8E%A7"></iframe>
 
 ~~
 
 <div class="trp-img">
   <img src="/images/trp/监控平台.png" alt="test"/>
 </div>
+
+Note: 应用数据暴露，数据采集，数据分析，数据展示/使用
 
 ~~
 
